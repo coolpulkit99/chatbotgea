@@ -1,0 +1,44 @@
+{
+  "id": "5a246434-8c14-4eca-9274-6d5138fc28c9",
+  "name": "zip code ask",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "6033e6ad-8338-4e84-867e-820633814164",
+          "required": true,
+          "dataType": "@sys.zip-code",
+          "name": "zip-code",
+          "value": "$zip-code",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please specify zip code"
+            }
+          ],
+          "defaultValue": "zip code invalid",
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Technician would be assigned to you shortly based on availability in your region ,meanwhile select your time slot from list-Monday 2-6 pm ,Tuesday 10-2 pm,Wednesday 2-6 pm ,Thursday 10-2 pm,Friday 2-6 pm ,Saturday 10-2 pm,"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1538331529,
+  "fallbackIntent": false,
+  "events": []
+}

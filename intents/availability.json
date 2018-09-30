@@ -1,0 +1,51 @@
+{
+  "id": "8b8d152f-f618-4f5c-9ca2-2c873102df04",
+  "name": "availability",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "3f4cd841-ca91-4dbd-ade8-3d132b2612ff",
+          "required": true,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "please specify date of appointment most comfortable for you"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "61c31daa-1c9b-4d38-97ab-973748bb84ca",
+          "required": false,
+          "dataType": "@sys.time",
+          "name": "time",
+          "value": "$time",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Your complaint is registered and unique complaint id will be sent to you shortly"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1538331582,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "82cbc90b-66a9-405f-9f2d-dfc7beff4b74",
+    "data": [
+      {
+        "text": "pin is ",
+        "userDefined": false
+      },
+      {
+        "text": "982378",
+        "alias": "zip-code",
+        "meta": "@sys.zip-code",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1538330832
+  }
+]

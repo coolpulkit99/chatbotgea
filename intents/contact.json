@@ -1,0 +1,71 @@
+{
+  "id": "8f120488-3619-420c-81f2-43863df2077c",
+  "name": "contact",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "08a21b53-17d6-430b-87dc-0990ea34468c",
+          "required": true,
+          "dataType": "@sys.address",
+          "name": "address",
+          "value": "$address",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please tell me your address"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "b9000328-b5cd-475f-8008-ef3fc0518d3e",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "name": "phone-number",
+          "value": "$phone-number",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please tell me your phone no"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "ccef492c-da7d-4d26-b77d-c57278d496fe",
+          "required": true,
+          "dataType": "@sys.email",
+          "name": "email",
+          "value": "$email",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please tell me your email"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Thank you for your info .Provide further info for more specific help"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1537208399,
+  "fallbackIntent": false,
+  "events": []
+}

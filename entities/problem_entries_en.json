@@ -1,0 +1,26 @@
+[
+  {
+    "value": "leaky",
+    "synonyms": [
+      "leaky"
+    ]
+  },
+  {
+    "value": "not starting",
+    "synonyms": [
+      "not starting"
+    ]
+  },
+  {
+    "value": "not",
+    "synonyms": [
+      "not"
+    ]
+  },
+  {
+    "value": "starting",
+    "synonyms": [
+      "starting"
+    ]
+  }
+]

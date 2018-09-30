@@ -1,0 +1,36 @@
+[
+  {
+    "value": "television",
+    "synonyms": [
+      "television",
+      "tv",
+      "idiot box",
+      "t.v."
+    ]
+  },
+  {
+    "value": "washing machine",
+    "synonyms": [
+      "washing machine"
+    ]
+  },
+  {
+    "value": "microwave",
+    "synonyms": [
+      "microwave",
+      "oven"
+    ]
+  },
+  {
+    "value": "dishwasher",
+    "synonyms": [
+      "dishwasher"
+    ]
+  },
+  {
+    "value": "washing machnie",
+    "synonyms": [
+      "washing machnie"
+    ]
+  }
+]

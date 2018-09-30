@@ -1,0 +1,106 @@
+{
+  "id": "73d695c5-921e-4d3d-a863-3fa338ce0113",
+  "name": "Appliancedetail",
+  "auto": true,
+  "contexts": [
+    "appliance",
+    "serial",
+    "model"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "appliance",
+          "parameters": {},
+          "lifespan": 10
+        },
+        {
+          "name": "serial",
+          "parameters": {},
+          "lifespan": 10
+        },
+        {
+          "name": "model",
+          "parameters": {},
+          "lifespan": 10
+        }
+      ],
+      "parameters": [
+        {
+          "id": "8976569b-0948-414b-971a-354df6bced07",
+          "required": true,
+          "dataType": "@modelno",
+          "name": "modelno",
+          "value": "$modelno",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please enter model no. of appliance"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "af55705b-94be-4b5c-9556-00c49e12c692",
+          "required": true,
+          "dataType": "@serialno",
+          "name": "serialno",
+          "value": "$serialno",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "please enter serial no of appliance"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "aea6c22a-4e7c-433a-9bb7-75a6f411446c",
+          "required": true,
+          "dataType": "@appliance",
+          "name": "appliance",
+          "value": "$appliance",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "please enter the appliance type"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "06a480d6-8b50-4f8d-ba60-b9a16bfbda03",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "name": "phone-number",
+          "value": "$phone-number",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "please specify phone number for further contact"
+            }
+          ],
+          "defaultValue": "please enter phone number for further contact",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Thank you for the info."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1538331489,
+  "fallbackIntent": false,
+  "events": []
+}

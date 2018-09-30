@@ -1,0 +1,148 @@
+[
+  {
+    "id": "83e2fbba-c4d9-4692-bc50-61cd4faa4403",
+    "data": [
+      {
+        "text": "i have an ",
+        "userDefined": false
+      },
+      {
+        "text": "oven",
+        "alias": "appliance",
+        "meta": "@appliance",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537209526
+  },
+  {
+    "id": "6903845f-32e3-4103-9660-1442be076a5a",
+    "data": [
+      {
+        "text": "i have a ",
+        "userDefined": false
+      },
+      {
+        "text": "television",
+        "alias": "appliance",
+        "meta": "@appliance",
+        "userDefined": false
+      },
+      {
+        "text": " sno #",
+        "userDefined": false
+      },
+      {
+        "text": "123123",
+        "alias": "phone-number",
+        "meta": "@sys.phone-number",
+        "userDefined": false
+      },
+      {
+        "text": " model ",
+        "userDefined": false
+      },
+      {
+        "text": "M123",
+        "alias": "modelno",
+        "meta": "@modelno",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537209526
+  },
+  {
+    "id": "dc25040b-be0b-43bb-b99a-28a55c82eb0d",
+    "data": [
+      {
+        "text": "device is ",
+        "userDefined": false
+      },
+      {
+        "text": "television",
+        "alias": "appliance",
+        "meta": "@appliance",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537209172
+  },
+  {
+    "id": "611739c7-f928-4ec8-b24e-09532fddfb84",
+    "data": [
+      {
+        "text": "the appliance is ",
+        "userDefined": false
+      },
+      {
+        "text": "washing machine",
+        "alias": "appliance",
+        "meta": "@appliance",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537209172
+  },
+  {
+    "id": "c497fb9f-0579-4dad-98b8-0b2d434108a5",
+    "data": [
+      {
+        "text": "the serial no is ",
+        "userDefined": false
+      },
+      {
+        "text": "#464546",
+        "alias": "serialno",
+        "meta": "@serialno",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537208914
+  },
+  {
+    "id": "3fb39950-95fe-4d74-ae0c-8cd5fdddb42c",
+    "data": [
+      {
+        "text": "Number is ",
+        "userDefined": false
+      },
+      {
+        "text": "Y12X",
+        "alias": "modelno",
+        "meta": "@modelno",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1537208707
+  },
+  {
+    "id": "55891b60-c8d1-431b-b039-c6b8aa9a92bd",
+    "data": [
+      {
+        "text": "The model number is ",
+        "userDefined": false
+      },
+      {
+        "text": "M12",
+        "alias": "modelno",
+        "meta": "@modelno",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537208707
+  }
+]

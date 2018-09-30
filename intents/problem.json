@@ -1,0 +1,51 @@
+{
+  "id": "92df35e7-9cb6-46f9-9706-ea9e38e67986",
+  "name": "problem",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "69dc6a16-06a6-450b-9efc-544fda741d0c",
+          "required": false,
+          "dataType": "@appliance",
+          "name": "appliance",
+          "value": "$appliance",
+          "isList": false
+        },
+        {
+          "id": "016e4207-32d2-4e04-8065-912d743015c4",
+          "required": true,
+          "dataType": "@problem",
+          "name": "problem",
+          "value": "$problem",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "please tell issue"
+            }
+          ],
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "will look into the issue please tell your pin"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1538331803,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,44 @@
+{
+  "id": "c4921787-03da-4948-8590-14f96f6c160e",
+  "name": "check reschedule",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "c6b37117-2d72-48c5-9fcb-a2c4c28e9a03",
+          "required": true,
+          "dataType": "@compnum",
+          "name": "compnum",
+          "value": "$compnum",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please specify complaint number"
+            }
+          ],
+          "defaultValue": "invalid number",
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Your request is being processed details will be texted to you shortly for complaint $compnum"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1538331611,
+  "fallbackIntent": false,
+  "events": []
+}

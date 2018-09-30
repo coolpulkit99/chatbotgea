@@ -1,0 +1,64 @@
+[
+  {
+    "id": "45635c45-d816-49cc-8e8c-a8ed5ab8bd44",
+    "data": [
+      {
+        "text": "washing machnie",
+        "alias": "appliance",
+        "meta": "@appliance",
+        "userDefined": true
+      },
+      {
+        "text": " is ",
+        "userDefined": false
+      },
+      {
+        "text": "leaky",
+        "alias": "problem",
+        "meta": "@problem",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538331803
+  },
+  {
+    "id": "e1648565-7329-4c0e-866f-cc3e9311a408",
+    "data": [
+      {
+        "text": "my ",
+        "userDefined": false
+      },
+      {
+        "text": "tv",
+        "alias": "appliance",
+        "meta": "@appliance",
+        "userDefined": false
+      },
+      {
+        "text": " is ",
+        "userDefined": false
+      },
+      {
+        "text": "not",
+        "alias": "problem",
+        "meta": "@problem",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "starting",
+        "alias": "problem",
+        "meta": "@problem",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538331803
+  }
+]

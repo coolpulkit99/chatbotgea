@@ -1,0 +1,74 @@
+[
+  {
+    "id": "6ed74aa3-d7cc-4f4c-baaa-b595dda7475a",
+    "data": [
+      {
+        "text": "my email is ",
+        "userDefined": false
+      },
+      {
+        "text": "gogogo",
+        "alias": "email",
+        "meta": "@sys.email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1537208399
+  },
+  {
+    "id": "229232fc-b514-489a-a0ad-157830fa4674",
+    "data": [
+      {
+        "text": "my email is ",
+        "userDefined": false
+      },
+      {
+        "text": "email@gmail.com",
+        "alias": "email",
+        "meta": "@sys.email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537208399
+  },
+  {
+    "id": "43eecc1a-daf3-4210-8ba2-dabe9ae32ea0",
+    "data": [
+      {
+        "text": "my phone no is ",
+        "userDefined": false
+      },
+      {
+        "text": "1234567890",
+        "alias": "phone-number",
+        "meta": "@sys.phone-number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537208399
+  },
+  {
+    "id": "d9c3dc9a-d089-4015-9a9f-2363c8c87764",
+    "data": [
+      {
+        "text": "My address is ",
+        "userDefined": false
+      },
+      {
+        "text": "22 jump street",
+        "alias": "address",
+        "meta": "@sys.address",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537208399
+  }
+]

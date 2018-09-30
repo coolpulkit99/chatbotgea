@@ -1,0 +1,62 @@
+[
+  {
+    "id": "abd5807a-1282-45d9-a8de-a01293ecce74",
+    "data": [
+      {
+        "text": "saturday",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538331178
+  },
+  {
+    "id": "5c45115f-096d-43db-af91-f76b520bd91c",
+    "data": [
+      {
+        "text": "monday",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      },
+      {
+        "text": " would be good",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538331178
+  },
+  {
+    "id": "86424b36-7345-4c82-8e4c-b7e534c0b6c4",
+    "data": [
+      {
+        "text": "i want ",
+        "userDefined": false
+      },
+      {
+        "text": "monday",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "2pm",
+        "alias": "time",
+        "meta": "@sys.time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538331178
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "990e03fe-1383-4998-9d87-0f15aa0d2fc6",
+    "data": [
+      {
+        "text": "reschedule my appointment ",
+        "userDefined": false
+      },
+      {
+        "text": "mw902",
+        "alias": "compnum",
+        "meta": "@compnum",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538331415
+  },
+  {
+    "id": "36eb0c5e-694a-400f-b3fc-b5a9b621482c",
+    "data": [
+      {
+        "text": "i would like to check my complaint ",
+        "userDefined": false
+      },
+      {
+        "text": "ws192",
+        "alias": "compnum",
+        "meta": "@compnum",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1538331284
+  }
+]
