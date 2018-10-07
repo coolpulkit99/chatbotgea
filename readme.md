@@ -1,0 +1,1 @@
+This chatbot follows a simple structure -greet>ask the appliance details-name,model no,serial no>ask the problem with the appliance>ask the contact details-phone number,address,email address>ask the pin code>ask the availability to deploy serviceman. 
